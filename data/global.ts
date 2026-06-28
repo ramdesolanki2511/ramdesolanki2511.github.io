@@ -36,7 +36,7 @@ export const routes: Route[] = [
   },
   {
     title: "Resume",
-    path: "#"
+    path: "/static/resume/Ramde_Solanki_Full_Stack_Developer_Resume.pdf"
   }
 ];
 

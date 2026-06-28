@@ -62,7 +62,7 @@ const workHistory = [
 
 export default function WorkHistory() {
   return (
-    <section id="experience" className="py-24">
+    <section id="experience">
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-16">
