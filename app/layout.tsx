@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/next-script-for-ga */
+import { ReactNode } from "react";
 import "./globals.css";
 import Head from "next/head";
 // import "tailwindcss/tailwind.css";
@@ -79,7 +80,12 @@ export const metadata = {
     }
   }
 };
-export default function RootLayout({ children }) {
+
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
     <html suppressHydrationWarning={true} lang="en">
       <Head>
