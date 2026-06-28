@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react";
+
 export const kebabCase = (str: string) =>
   str
     .replace(/([a-z])([A-Z])/g, "$1-$2")
@@ -6,7 +8,7 @@ export const kebabCase = (str: string) =>
 
 export const kebabArray = (arr: any[]) => arr.map((item) => kebabCase(item));
 
-export const randomNumberText = (finalNum: string, setNumber) => {
+export const randomNumberText = (finalNum: string, setNumber: Dispatch<SetStateAction<string>>) => {
   let count = 0;
   let newNum = "";
   const interval = setInterval(() => {
@@ -19,7 +21,7 @@ export const randomNumberText = (finalNum: string, setNumber) => {
     if (count === 20) {
       clearInterval(interval);
 
-      setNumber("404");
+      setNumber(finalNum);
     }
   }, 80);
 };
