@@ -5,7 +5,7 @@ export default function Head({ currentPage = "Home" }) {
       : `${currentPage} - Ramde Solanki`
   }`;
   const desc =
-    "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.";
+    "Building AI-powered web applications, SaaS platforms, and business automation solutions that help companies save time, increase revenue, and scale faster.";
   return (
     <>
       <link rel="manifest" href={`/static/favicon/site.webmanifest`} />
@@ -13,7 +13,7 @@ export default function Head({ currentPage = "Home" }) {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="keywords"
-        content="Ramde Solanki, Ramde Solanki, freelancers, react developer, reactjs freelancer, nextjs"
+        content="Ramde Solanki, , freelancers, react developer, Frontend Developer, Full Stack Developer, nextjs"
       />
       <link rel="icon" href={`/static/favicon/favicon.ico`} />
       <link
