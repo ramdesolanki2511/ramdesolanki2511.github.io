@@ -2,7 +2,7 @@
 import Footer from "../global/Footer";
 import MobileNavbar from "../global/MobileNavbar";
 import Navbar from "../global/Navbar";
-import React from "react";
+import React, { ReactNode } from "react";
 
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
@@ -48,5 +48,5 @@ type PageProps = {
     title?: string;
     desc: string;
   };
-  children?: JSX.Element | JSX.Element[];
+  children?: ReactNode;
 };

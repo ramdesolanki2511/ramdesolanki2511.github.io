@@ -4,7 +4,11 @@ import React from "react";
 import { routes } from "@/data/global";
 import Image from "next/image";
 
-function Navbar({ currentPage }) {
+function Navbar({
+  currentPage,
+}: {
+  currentPage: string;
+}) {
   return (
     <nav className="flex items-center justify-between">
       <div className="list-none font-bold text-lg cursor-pointer">

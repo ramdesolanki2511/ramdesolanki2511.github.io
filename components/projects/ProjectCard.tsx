@@ -3,8 +3,13 @@ import React from "react";
 import Image from "next/image";
 import { kebabCase } from "@/utils/utils";
 import Link from "next/link";
+import { Project } from "@/types/project";
 
-function ProjectCard({ project }) {
+type ProjectCardProps = {
+  project: Project;
+};
+
+function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div
       className="max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center"

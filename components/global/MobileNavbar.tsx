@@ -117,7 +117,7 @@ function MenuIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-function CrossIcon(props) {
+function CrossIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       className="h-5 w-5 absolute text-gray-100"
