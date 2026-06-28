@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import { useEffect, useState } from "react";
+import { SVGProps, useEffect, useState } from "react";
 
 import Link from "next/link";
 import { routes } from "@/data/global";
@@ -89,7 +89,7 @@ export default function MobileNavbar() {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       className="h-5 w-5 absolute text-gray-100"
