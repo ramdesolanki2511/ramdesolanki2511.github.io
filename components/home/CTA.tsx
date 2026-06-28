@@ -12,7 +12,7 @@ function CTA() {
         height={10}
         width={238}
       />
-      <div className="pt-14 pb-40">
+      <div className="pt-14 pb-14">
         <h2 className="text-4xl md:text-5xl font-bold mb-10">
           Interested in Working Together?
         </h2>
@@ -24,13 +24,6 @@ function CTA() {
           Get in Touch
         </a>
       </div>
-
-      <img
-        alt="fancyLines"
-        className="sqD min-w-[800px] bottom-[-100px] left-1/2 sm:bottom-[-150px] -translate-x-1/2 object-cover sm:min-w-[1100px]"
-        style={{ zIndex: "-10" }}
-        src={`/static/doodles/hero/fancyLines.svg`}
-      />
     </div>
   );
 }
