@@ -90,7 +90,7 @@ const projects = [
     id: 9,
     title: "bannerbuzz",
     desc: "The restaurant CRUD app is a sample project with CRUD operations built with ant-design, bootstrap4, and ReactJs.",
-    img: `/static/projects/bannerbuzz.jpg`,
+    img: `/static/projects/bannerbuzz.png`,
     tags: ["React", "Javascript", "Node.js", "Next.js", "Express.js", "React Redux", "HTNL 5", "CSS"]
   },
   {
