@@ -7,7 +7,7 @@ const projects = [
     desc: "Sugar Auto Parts is a dedicated online marketplace built exclusively for the automotive parts industry.",
     img: `/static/projects/sugarautoparts.png`,
     link: "https://www.sugarautoparts.com/",
-    tags: ["React", "NextJS", "CSS", "Context", "Socket.io"]
+    tags: ["React", "Javascript", "Node.js", "Next.js", "Express.js", "React Redux", "HTNL 5", "CSS"]
   },
   {
     id: 1,
@@ -31,7 +31,7 @@ const projects = [
     desc: "strategic brand and design agency helping ambitious organisations scale with distinction and build enduring competitive advantage",
     img: `/static/projects/studioband.png`,
     link: "https://www.studioband.com.au/",
-    tags: ["React", "CSS", "Javascript", "Redux", "Groomet", "Bulma"]
+    tags: ["React", "Javascript", "Node.js", "Next.js", "Express.js", "React Redux", "HTNL 5", "CSS"]
   },
   {
     id: 3,
@@ -59,76 +59,80 @@ const projects = [
   },
   {
     id: 6,
-    title: "Banking Platform",
+    title: "Canvaschamp",
     desc: "Banking Platform with multiple react apps for Landing app, Authentication app, Transaction app, Foundation app, and separate React apps for other banking operations in the Main app.",
-    img: `/static/projects/banking.jpg`,
-    tags: [
-      "React",
-      "Javascript",
-      "Micro Frontend",
-      "Shared Components",
-      "Docker",
-      "Material UI"
-    ]
+    img: `/static/projects/canvaschamp.png`,
+    tags: ["React", "Javascript", "Node.js", "Next.js", "Express.js", "React Redux", "HTNL 5", "CSS"]
   },
   {
     id: 7,
-    title: "Shoppr",
+    title: "Giantmediaonline",
     desc: "Product is a Customer Science Platform that provides the often-missing holistic customer view to e-commerce sellers and empowers them to reach out to the right customers with the right product at right time.",
-    img: `/static/projects/shoppr.jpg`,
-    link: "shoppr.ai",
+    img: `/static/projects/giantmediaonline.png`,
+    // link: "shoppr.ai",
     tags: [
-      "React",
+      "Magento",
       "Javascript",
-      "Redux",
-      "Ant-Design",
-      "React Google Charts",
-      "ReCharts"
+      "HTML",
+      "SCSS"
     ]
   },
   {
     id: 8,
-    title: "Covid-19-Global-Dashboard",
+    title: "Bestofsigns",
     desc: "COVID-19 Global | India - Get Real-time coronavirus updates for India and global. Analytics of all the affected countries with the number of confirmed, recovered, deaths, and active cases.",
-    img: `/static/projects/covid19.jpg`,
-    link: "#",
-    github: "https://github.com/ramdesolanki2511/Covid-19-Global-Dashboard",
-    tags: ["React", "Javascript", "React Google Charts", "Node", "ReCharts"]
+    img: `/static/projects/bestofsigns.png`,
+    // link: "#",
+    // github: "https://github.com/ramdesolanki2511/Covid-19-Global-Dashboard",
+    tags: ["React", "Javascript", "Node.js", "Next.js", "Express.js", "React Redux", "HTNL 5", "CSS"]
   },
   {
     id: 9,
-    title: "Restaurant App",
+    title: "bannerbuzz",
     desc: "The restaurant CRUD app is a sample project with CRUD operations built with ant-design, bootstrap4, and ReactJs.",
-    img: `/static/projects/restaurant.jpg`,
-    link: "#",
-    github: "https://github.com/ramdesolanki2511/restaurant-app",
-    tags: ["React", "Javascript", "Bootstrap"]
+    img: `/static/projects/bannerbuzz.jpg`,
+    tags: ["React", "Javascript", "Node.js", "Next.js", "Express.js", "React Redux", "HTNL 5", "CSS"]
   },
   {
     id: 10,
-    title: "Would You Rather",
+    title: "Labgensys",
     desc: "Project is a web app that lets a user play the “Would You Rather?” game. The game goes like this: A user is asked a question in the form: “Would you rather [option A] or [option B] ?”.",
-    img: `/static/projects/wouldyou.jpg`,
-    link: "#",
-    github: "https://github.com/ramdesolanki2511/would-you-rather",
-    tags: ["React", "Javascript"]
+    img: `/static/projects/labgensys.png`,
+    link: "https://labgensys.com/",
+    // github: "https://github.com/ramdesolanki2511/would-you-rather",
+    tags: ["Wordpress", "HTML", "CSS", "Javascript", "PHP", "MySQL", "Caching", "Image Optimization", "Google Analytics", "Google Tag Manager"]
   },
   {
     id: 11,
-    title: "Favourite Location Tracker",
+    title: "Aarachengineering",
     desc: "Project is a web app that lets a user make a list of favorite locations. Users can add a favorite location to the list by selecting a location from the map and adding the details of that location.",
-    img: `/static/projects/favoritelocation.jpg`,
-    github: "https://github.com/ramdesolanki2511/favorite-location-tracker",
-    tags: ["React", "Javascript", "Map"]
+    img: `/static/projects/aarachengineering.png`,
+    link: "https://aarachengineering.com/",
+    // github: "https://github.com/ramdesolanki2511/favorite-location-tracker",
+    tags: ["Wordpress", "HTML", "CSS", "Javascript", "PHP", "MySQL", "Caching", "Image Optimization", "Google Analytics", "Google Tag Manager"]
   },
   {
     id: 12,
-    title: "Embedded-react-widget",
+    title: "Polarengineering",
     desc: "Embedded React Widget to deploy on your website.",
-    img: `/static/projects/widget.jpg`,
-    github: "https://github.com/ramdesolanki2511/embedded-react-widget",
-    tags: ["React", "Javascript"]
-  }
+    img: `/static/projects/polarengineering.png`,
+    link: 'https://polarengineering.in/',
+    // github: "https://github.com/ramdesolanki2511/embedded-react-widget",
+    tags: ["Wordpress", "HTML", "CSS", "Javascript", "PHP", "MySQL", "Caching", "Image Optimization", "Google Analytics", "Google Tag Manager"]
+  },
+  {
+    id: 13,
+    title: "Suspensiondirect",
+    desc: "Industry leader in suspension & chassis innovation in motocross and Offroad Vehicle applications",
+    img: `/static/projects/suspensiondirect.png`,
+    // link: "shoppr.ai",
+    tags: [
+      "Magento",
+      "Javascript",
+      "HTML",
+      "SCSS"
+    ]
+  },
 ];
 
 export const allTags: string[] = [];
