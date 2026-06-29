@@ -3,18 +3,18 @@ import { kebabCase } from "@/utils/utils";
 const projects = [
   {
     id: 0,
-    title: "Wasalt",
-    desc: "Find properties For Sale and Rent, The Platform offering reliable real estate brokerage services.",
-    img: `/static/projects/wasalt.jpg`,
-    link: "https://wasalt.com/",
+    title: "Sugarautoparts",
+    desc: "Sugar Auto Parts is a dedicated online marketplace built exclusively for the automotive parts industry.",
+    img: `/static/projects/sugarautoparts.png`,
+    link: "https://www.sugarautoparts.com/",
     tags: ["React", "NextJS", "CSS", "Context", "Socket.io"]
   },
   {
     id: 1,
-    title: "Etihaas",
-    desc: "Healthcare near you, World's first Digital Healthcare Marketplace! If you own a healthcare establishment, you can claim your business for free",
-    img: `/static/projects/etihaas.jpg`,
-    link: "https://www.etihaas.com/",
+    title: "Craiglinke",
+    desc: "Craig Linke is a boutique, Adelaide based building and interior design company. We specialise in architectural builds and custom renovation projects",
+    img: `/static/projects/craiglinke.png`,
+    link: "https://craiglinke.com.au/",
     tags: [
       "React",
       "NextJS",
@@ -27,33 +27,34 @@ const projects = [
   },
   {
     id: 2,
-    title: "Equitidex",
-    desc: "Buy & Sell Digital Assets in minutes",
-    img: `/static/projects/equitidex.jpg`,
-    link: "https://www.equitidex.com/",
+    title: "Studioband",
+    desc: "strategic brand and design agency helping ambitious organisations scale with distinction and build enduring competitive advantage",
+    img: `/static/projects/studioband.png`,
+    link: "https://www.studioband.com.au/",
     tags: ["React", "CSS", "Javascript", "Redux", "Groomet", "Bulma"]
   },
   {
     id: 3,
-    title: "Macwin Solar Energy",
-    desc: "Macwin Solar PV Module is the flagship company of Unique Sun Power LLP, which supplies solar panels used for green energy generation",
-    img: `/static/projects/macwin.jpg`,
-    link: "https://macwinsolarenergy.com/",
+    title: "The Building Company",
+    desc: "create homes that elevate the everyday and redefine what it means to live well",
+    img: `/static/projects/thebuildingcompany.png`,
+    link: "https://thebuildingcompany.net/",
     tags: ["React", "TailwindCSS", "Javascript"]
   },
   {
     id: 4,
-    title: "NewNex",
-    desc: "Newnex is the end-to-end platform for fundraising and investing in startups, co-investments and venture capital funds for GPs and LPs.",
-    img: `/static/projects/newnex.jpg`,
-    link: "https://www.newnex.io/",
+    title: "Enkaytech",
+    desc: "Create apps that our customers love, help their businesses grow, and enable their employees to thrive.",
+    img: `/static/projects/enkaytech.png`,
+    link: "https://enkaytech.com/",
     tags: ["React", "NextJs", "Javascript"]
   },
   {
     id: 5,
-    title: "AI Olympiad",
-    desc: "Students can take online quizzes to test their knowledge. Teachers can assign tests and assignments to students and the admin can manage both students and teachers.",
-    img: `/static/projects/aiolymp.jpg`,
+    title: "ionicwebs",
+    desc: "provide a complete range of digital services designed to meet every aspect of our clients’ goals.",
+    img: `/static/projects/ionicwebs.png`,
+    link: 'https://ionicwebs.com/',
     tags: ["React", "Javascript", "Redux", "HTML"]
   },
   {
